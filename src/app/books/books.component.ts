@@ -14,12 +14,10 @@ export class BooksComponent {
   author2:string = 'David Thomas';
   src2:string = "https://m.media-amazon.com/images/P/B07VRS84D1.01._SCLZZZZZZZ_SX500_.jpg";
 
-  isDisabled:boolean = false;
+  isShowing: boolean = true;
 
-  handleClick(){
-    this.isDisabled = true;
-  }
-
-  myName: string='';
+toggleBooks() {
+  this.isShowing = !this.isShowing;
+}
 
 }
