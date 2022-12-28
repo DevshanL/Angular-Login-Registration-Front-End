@@ -15,4 +15,11 @@ export class BooksComponent {
   src2:string = "https://m.media-amazon.com/images/P/B07VRS84D1.01._SCLZZZZZZZ_SX500_.jpg";
 
   isDisabled:boolean = false;
+
+  handleClick(){
+    this.isDisabled = true;
+  }
+
+  myName: string='';
+
 }
