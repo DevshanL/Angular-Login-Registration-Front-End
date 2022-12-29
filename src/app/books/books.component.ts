@@ -31,5 +31,11 @@ export class BooksComponent {
     },
   ];
 
+  card: Book[] = [];
+
   isShowing: boolean = true;
+
+  addToCard(book: Book){
+console.log(book);
+  }
 }
